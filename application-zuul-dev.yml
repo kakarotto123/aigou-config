@@ -6,7 +6,7 @@ spring:
     name: AIGOU-ZUUL
 
 zuul:
-  ignoredServices: '*' #只能通过路由访问，不能使用服务名访问
+  ignoredServices: '*' 
   routes:
     plat:
       serviceId: AIGOU-PLAT
