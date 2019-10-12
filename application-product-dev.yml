@@ -3,3 +3,5 @@ server:
 spring:
   application:
     name: AIGOU-PRODUCT
+mybatis-plus:
+  mapper-locations: classpath*:cn/itsource/aigou/mapper/*Mapper.xml
