@@ -14,4 +14,7 @@ zuul:
     product:
       serviceId: AIGOU-PRODUCT
       path: /product/**
+    common:
+      serviceId: AIGOU-COMMON
+      path: /common/**
   prefix: /services
